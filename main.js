@@ -27,12 +27,10 @@ button.style.top = `${y}px`;
     "Don't be so mean! 😭",
     "Come on, just click yes! 🤗",
     "Not the 'No' again! 🤧",
-    "Pls now, Don't be stingy... 🥺",
+    "Pls now, Don't do like this... 🥺",
     "Fine, I give up... 😔",
-    "Eat Your Money!😤",
-    "oya Sorry¡ 😞",
-    "pls!😪",
-    "rubbish😒, be going🚶!!"
+    "I guys I'll do my val without you!😤",
+    "byee¡ 😞",
     
   ];
 const src = [
@@ -40,9 +38,15 @@ const src = [
     "20250210_122803.gif",
     "muach.gif",
    "kiss-i-love-you.gif",
-   "Snapchat-835346411.jpg"
+   "Snapchat-835346411.jpg",
+   '/cat.gif',
+   '/giphy (1).gif',
+   '/goma-cat-fall-backwards.webp',
+   '/cat-graycat.webp',
+   '/20250210_122803.gif',
+   '/besito-catlove.webp'
   ]
-    if (noclicks <=11) {
+    if (noclicks <=9) {
       noclicks=noclicks + 1;
       msg.innerHTML=messages[noclicks];
 img.src=src[noclicks]
