@@ -79,7 +79,9 @@ console.log(noclicks)
 var yesbn=document.querySelector('.yesbn');
 yesbn.addEventListener('click',()=>{
   alert("Thanks for Clicking Yes! I Love You❤️");
-  document.querySelector('.card').style.display='flex';
+  img.src='/giphy.gif';
+  msg.innerText='Hurray!! I Love You So Much!🥰'
+  //document.querySelector('.card').style.display='flex';
   const accountNumber = "0939884141";
 });
 
