@@ -1,6 +1,7 @@
 console.log('Hello World!');
 
   let noclicks= 0;
+  let clickcount=0;
 var copied=false;
 const button = document.getElementById('random-button');
 var msg=document.querySelector('.message');
@@ -83,6 +84,16 @@ yesbn.addEventListener('click',()=>{
   msg.innerText='Hurray!! I Love You So Much!🥰'
   //document.querySelector('.card').style.display='flex';
   const accountNumber = "0939884141";
+  button.style.display='none';
+  clickcount++;
+  yesbn.innerText='Message me';
+
+  if (clickcount===1) {
+  yesbn.onclick=()=>{
+
+    window.location="https://wa.me/08146998074?text=I Love You Samuel"
+  }
+  }
 });
 
 
